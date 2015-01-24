@@ -1,0 +1,14 @@
+Ruby programming language
+	Objectives	
+	Syntax
+	Concepts
+	Recap on any of basic programming paradigms
+
+Web development application  Rails as framework!
+
+    Components required to build a rails application
+	Ruby on Rails
+	Database
+	How to write basic queries to fetch/store data
+	How to build web pages again, using Rails libraries
+	Extensions - How simply we can extend any web application
