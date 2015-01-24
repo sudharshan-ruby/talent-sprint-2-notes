@@ -1,3 +1,68 @@
+
+Ruby is an object oriented programming lanugagues. It's an interepreted language.
+
+Statement: In ruby everything is an object and there are no primitives.
+
+Primitives are int, char, str, float
+
+int i
+char c
+float f
+string s
+
+Let's interpret deeper
+1. If integer(5) is an object, what's it class? or Parent?
+Ans: 5 is an integer object, whose class is Fixnum.
+2. Let's say there is a class! what are the methods implemented?
+Ans: For integer objects 130 methods are implemented
+3. Let's say methods are implemented! how to use these methods?
+Ans: 5.next
+
+
+What next?
+Ans: Try more methods as per http://www.ruby-doc.org/core-2.2.0/Fixnum.html
+
+Statement: Operators are nothing but methods in Ruby
+ +, -, *, /, %, =, ==
+
+5 + 5 => 5.+(5)
+
+1. If they are methods, how or where are they defined?
+Ans: Yes they are methods. Definition of each of them are available within class
+     	http://www.ruby-doc.org/core-2.2.0/Fixnum.html#method-i-2A
+	http://www.ruby-doc.org/core-2.2.0/String.html#method-i-2A
+2. Show/Try examples
+Ans:
+	5.+(10) => 15
+	"ruby "*5 => "ruby ruby ruby ruby ruby " 
+
+
+
+
+Method invocation by object -> <object>.<method-name>
+
+Kernel method "class" which is accessible by all objects. <object>.class
+Kernel method "methods" which is accessible by all objects. <object>.methods
+
+			Numeric Class
+	--------------------------------------------------
+	|		|		|
+   Fixnum             Bignum      	Float
+
+class
+	methods
+	new
+object = ClassName.new
+
+int var-name = "value"
+
+Object Oriented Programming
+	Abstraction - To abstract the requirement
+	Encapsulation - 
+	Inheritence - Ability of child to inherit the properties/behavior that a parent class implements
+	Polymorpshism - Overloading & Overriding
+
+
 Ruby programming language
 	Objectives	
 	Syntax
