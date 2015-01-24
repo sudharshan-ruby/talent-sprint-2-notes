@@ -1,3 +1,15 @@
+Ruby Methods
+
+Naming conventions: method_one, method_two
+
+Definition: 
+
+def method_one
+  statement-1
+  statement-2
+  statement-3
+end
+
 
 Ruby is an object oriented programming lanugagues. It's an interepreted language.
 
