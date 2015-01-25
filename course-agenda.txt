@@ -1,3 +1,15 @@
+Session - 2
+1. Conditionals & Iterations
+
+2. Ruby classes - Strings, Collections-Arrays, Collections-Hash
+
+3. Modules through enumerables as examples
+
+
+
+
+Session -1
+
 Ruby Methods
 
 Naming conventions: method_one, method_two
