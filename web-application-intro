@@ -1,0 +1,37 @@
+In a nutshell... a web application
+
+	one to show the data
+		Where to show?	On web clients/browsers
+		How to show?	Using technologies that browser can understand
+		What to show?
+		When to show?
+	two to store the data
+	three to structure to serve the data
+
+
+
+Gmail - Mailing application
+
+1. Web Browser
+2. Enter URL
+Unique Resource Identified/Locator
+Every (registered)domain is identified/resolved to an IP
+Server
+
+gmail.com -> Login page -> Dashboard
+3. Login Page displayed
+3.1 User Interface - HTML pages
+3.2 Styles/Structure applied
+
+4. You enter credentials
+4.1 Interactions like provide credentials
+4.2 click on submit button
+4.3 Valid Connection to database
+4.4 Query the db based on the credentials user entered
+
+
+5. Dashboard
+5.1 If credentials are valid takes to dashboard
+5.2 not show same page highlight errors
+
+6. Logout/Signout
