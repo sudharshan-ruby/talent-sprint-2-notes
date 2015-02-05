@@ -40,9 +40,21 @@ Since it's web application, request comes from web browser there has to be a web
 Every action in a controller with have a template to render/show.
 app/views/<controller_name>/<action_name.html.erb>
 
+Action View Helpers - http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html
 
 
 Brwoser - http://localhost:3000/articles/new         ==> New form
+http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html
+
+Task - Add more fields to capture article information. Add reference url, Radio option that checks for safe for work (.) Yes or ().
+
+Tips: 
+Create migration files, rails generate migration <migration_name>
+Add columns using the ActiveRecord migration API (add_column ...)
+Modify views uing ActionView helpers
+Make the reqiured changes in models, controllers/actions
+
+
 
 Brwoser - http://localhost:3000/articles/1           ==> Show article
 
