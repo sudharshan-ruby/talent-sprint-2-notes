@@ -1,0 +1,20 @@
+Ref - https://guides.rubyonrails.org#getting_started.html
+
+We identified resource - Article
+
+Operations on resource - Create Read Update Delete
+
+cmd - rails gerenate scaffold Article title:string content:text
+
+cmd - rails s
+
+cmd - rake -T
+
+Brwoser - http://localhost:3000/articles             ==> List of articles
+
+Brwoser - http://localhost:3000/articles/new         ==> New form
+
+Brwoser - http://localhost:3000/articles/1           ==> Show article
+
+Brwoser - http://localhost:3000/articles/1/edit      ==> Edit article with id-1
+
