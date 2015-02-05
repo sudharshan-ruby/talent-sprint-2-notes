@@ -11,6 +11,36 @@ cmd - rails s
 cmd - rake -T
 
 Brwoser - http://localhost:3000/articles             ==> List of articles
+Now this particular URL is mapped to controller(articles_controller.rb) and action (index)
+
+
+WEB Browser ====> Web Server   ====> routes
+                                      ||
+                                      controller/action  <==> Models   <---> Database
+                                       ||
+                                       Views   ==> render web pages ==> Web browser                                   
+
+Object Relational Mapping (ORM)
+Programming Language      Database
+class                     Tables
+object                    Rows/Entires
+properties                Columns
+
+Conventions -> For every model class there will be a table mapped into database.
+Table name will be always plural form of Model name. 
+
+Article ===> articles
+Post ======>  posts
+Comment  =====> comments
+
+Views convention
+
+Since it's web application, request comes from web browser there has to be a web page rendered back to brwoser.
+
+Every action in a controller with have a template to render/show.
+app/views/<controller_name>/<action_name.html.erb>
+
+
 
 Brwoser - http://localhost:3000/articles/new         ==> New form
 
