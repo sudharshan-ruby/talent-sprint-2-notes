@@ -1,0 +1,2 @@
+Ref - http://guides.rubyonrails.org/getting_started.html#adding-a-second-model
+Problem Statement: Add feature to create comments while/after reading a post
